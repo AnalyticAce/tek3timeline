@@ -1,0 +1,45 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
+<div id='embed_103517961' class='waffle-embedded-object-overlay' style='width: 100%; height: 100%; display: block;'></div><script>
+  function posObj(sheet, id, row, col, x, y) {
+      var rtl = false;
+      var sheetElement = document.getElementById(sheet);
+      if (!sheetElement) {
+        sheetElement = document.getElementById(sheet + '-grid-container');
+      }
+      if (sheetElement) {
+        rtl = sheetElement.getAttribute('dir') == 'rtl';
+      }
+      var r = document.getElementById(sheet+'R'+row);
+      var c = document.getElementById(sheet+'C'+col);
+      if (r && c) {
+        var objElement = document.getElementById(id);
+        var s = objElement.style;
+        var t = y;
+        while (r && r != sheetElement) {
+          t += r.offsetTop;
+          r = r.offsetParent;
+      }
+      var offsetX = x;
+      while (c && c != sheetElement) {
+        offsetX += c.offsetLeft;
+        c = c.offsetParent;
+      }
+      if (rtl) {
+        offsetX -= objElement.offsetWidth;
+      }
+      s.left = offsetX + 'px';
+      s.top = t + 'px';
+      s.display = 'block';
+      s.border = '1px solid #000000';
+    }
+  }
+
+  function posObjs() {
+  posObj('1411831313', 'embed_103517961', 0, 0, 0, 0);}posObjs();</script><script src="resources/3872096390-ChartsCombinedJ2clBootstrap_bootstrap_core.js"></script><script>var ritzspreadsheetconstants = {"localeName":"en_US","timeZoneConstants":{"GMT":{"names_ext":{"STD_GENERIC_LOCATION":"GMT","STD_LONG_NAME_GMT":"GMT"},"std_offset":0,"names":["GMT","Greenwich Mean Time"],"id":"GMT","transitions":[]},"Africa/Lagos":{"names_ext":{"STD_GENERIC_LOCATION":"Nigeria Time","STD_LONG_NAME_GMT":"GMT+01:00"},"std_offset":60,"names":["GMT+1","West Africa Standard Time"],"id":"Africa/Lagos","transitions":[]}},"numberFormatSymbols":{"DECIMAL_SEP":".","PERMILL":"‰","MINUS_SIGN":"-","PERCENT_PATTERN":"#,##0%","INFINITY":"∞","DEF_CURRENCY_CODE":"USD","PLUS_SIGN":"+","CURRENCY_PATTERN":"¤#,##0.00","DECIMAL_PATTERN":"#,##0.###","SCIENTIFIC_PATTERN":"#E0","PERCENT":"%","EXP_SYMBOL":"E","GROUP_SEP":",","NAN":"NaN","ZERO_DIGIT":"0"},"allowTerminalDateSeparator":true,"amPmEnglishAccepted":false,"currencyPrefix":true,"currencyTag":"\"$\"","datePostsAreSuffix":true,"dateTimeWithoutYearPattern":"M/d H:mm","dateWithoutYearPattern":"M/d","dayPost":"","decimalSeparator":".","defaultDatePattern":"M/d/yyyy","defaultDateTimePattern":"M/d/yyyy H:mm:ss","defaultTimePattern":"h:mm:ss am/pm","defaultUiLanguage":"en","exponentSeparator":"E","extraDateSeparator":"","firstDayOfWeek":0,"additionalFonts":[],"additionalFormats":[{"1":5,"2":"yyyy-MM-dd","3":1},{"1":5,"2":"MM-dd-yyyy","3":1},{"1":5,"2":"M/d/yy","3":1},{"1":5,"2":"MM-dd-yy","3":1},{"1":5,"2":"M/d","3":1},{"1":5,"2":"MM-dd","3":1},{"1":5,"2":"d-MMM","3":1},{"1":5,"2":"d-MMM-yyyy","3":1},{"1":5,"2":"MMMM d, yyyy","3":1},{"1":5,"2":"MMMM d","3":1},{"1":5,"2":"MMM-d","3":1},{"1":6,"2":"h:mm:ss am/pm","3":1},{"1":6,"2":"h:mm am/pm","3":1},{"1":6,"2":"H:mm:ss","3":1},{"1":6,"2":"H:mm","3":1},{"1":7,"2":"M/d H:mm","3":1}],"amPmStrings":["AM","PM"],"amString":"AM","monthsFull":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"pmString":"PM","timePrefix":"","timeSeparator":":","weekdaysFull":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"groupingSeparator":",","hourPost":"","minimalDaysInFirstWeek":1,"minusSign":"-","minutePost":"","monthPost":"","negativeParens":true,"percent":"%","periodIsDateSeparator":false,"plusSign":"+","secondPost":"","shortDateFormatSuffix":"","yearPost":"","textInputCurrencySymbol":"$"};</script><script>const visualizationData = { };visualizationData['103517961'] = null;function initVisualizations() {visualizationData['103517961'] = {'elementId': 'embed_103517961', 'data': '\x5b\x5b\x22Project\x22,\x22Module\x22,\x22Start Date\x22,\x22End Date\x22,\x22Duration\x22,\x22Start Date\x22,\x22foreground-color\x22,null\x5d,\x5b\x22R-Type\x22,\x22G5 - Advanced C++\x22,\x2245551.0\x22,\x2245599.0\x22,\x2248 Jours\x22,-7936,-16777216,null\x5d,\x5b\x22AREA\x22,\x22G5 - Application Development\x22,\x2245551.0\x22,\x2245599.0\x22,\x2248 Jours\x22,-11695658,-16777216,null\x5d,\x5b\x22Bernstein\x22,\x22G5 - Advanced DevOps\x22,\x2245564.0\x22,\x2245585.0\x22,\x2221 Jours\x22,-65536,-16777216,null\x5d,\x5b\x22Cryptographie\x22,\x22G5 - Computer Numerical Analysis\x22,\x2245564.0\x22,\x2245585.0\x22,\x2221 Jours\x22,-26368,-16777216,null\x5d,\x5b\x22Whanos\x22,\x22G5 - Advanced DevOps\x22,\x2245582.0\x22,\x2245641.0\x22,\x2259 Jours\x22,-65536,-16777216,null\x5d,\x5b\x22Gomoku\x22,\x22G5 - Artificial Intelligence\x22,\x2245593.0\x22,\x2245620.0\x22,\x2227 Jours\x22,-6749953,-16777216,null\x5d,\x5b\x22Neural Network\x22,\x22G5 - Computer Numerical Analysis\x22,\x2245589.0\x22,\x2245641.0\x22,\x2252 Jours\x22,-26368,-16777216,null\x5d,\x5b\x22Chisel\x22,\x22G5 - Advanced Security \x22,\x2245593.0\x22,\x2245620.0\x22,\x2227 Jours\x22,-13076963,-16777216,null\x5d,\x5b\x22English Project - A day in your dream job\x22,\x22G5 - English - Practical\x22,\x2245611.0\x22,\x2245621.0\x22,\x2210 Jours\x22,-65281,-16777216,null\x5d,\x5b\x22Devils Advocate\x22,\x22G5 - Professional Communication\x22,\x2245572.0\x22,\x2245585.0\x22,\x2213 Jours\x22,-16711936,-16777216,null\x5d,\x5b\x22Project Presentation Brochure\x22,\x22G5 - Professional Communication\x22,\x2245585.0\x22,\x2245606.0\x22,\x2221 Jours\x22,-16711936,-16777216,null\x5d,\x5b\x22The Geek Magazin\x22,\x22G5 - Professional Communication\x22,\x2245614.0\x22,\x2245641.0\x22,\x2227 Jours\x22,-16711936,-16777216,null\x5d,\x5b\x22GLaDOS\x22,\x22G5 - Functional Programming\x22,\x2245614.0\x22,\x2245676.0\x22,\x2262 Jours\x22,-65536,-16777216,null\x5d,\x5b\x22Alternance\x22,\x22G5 - Practical Work Experience\x22,\x2245550.0\x22,\x2245718.0\x22,\x22168 Jours\x22,-6749953,-16777216,null\x5d\x5d', 'properties': '\x5b1,\x22398401900\x22,null,\x5b0,1,2,4,\x5b3\x5d,5,1,null,1,null,2,1\x5d,\x220\x22\x5d',}; drawVisualization(visualizationData['103517961'], 'en_US', 'Africa\/Lagos',  false );}function drawVisualization(data, locale, timezone, isRtlShell) {const visualizationElement = document.getElementById(data.elementId); const sheetsViewportElement = document.getElementById('sheets-viewport'); const width = sheetsViewportElement ? sheetsViewportElement.offsetWidth : window.innerWidth; const height = sheetsViewportElement ? sheetsViewportElement.offsetHeight : window.innerHeight; data.component = new waffle.visualization.timeline.renderer.export.TimelineExportComponent(data.data, data.properties, locale, timezone, width, height, isRtlShell); data.component.render(visualizationElement);}function onVisualizationExportApiLoad() {initVisualizations();}</script><script>var VISUALIZATION_EXPORT_URI = [];VISUALIZATION_EXPORT_URI.push('resources\/3492103742-VisualizationExportJ2cl_module.js');
+    if (window.addEventListener) {
+      window.addEventListener('load',
+        function() {
+          window.visualizationScriptLoader.load();
+        });
+    }
+    </script>
